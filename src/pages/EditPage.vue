@@ -43,7 +43,8 @@
         v-model="salary"
       />
 
-      <button class="w-100 btn btn-lg btn-primary" type="submit">update</button>
+      <button class="w-50 btn btn-lg btn-primary" type="submit">update</button>
+      <button class="w-50 btn btn-lg btn-danger" type="submit"><router-link to="/">cancel</router-link></button>
       <p class="mt-5 mb-3 text-muted">&copy; 2021 @devemm</p>
     </form>
   </main>
